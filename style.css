@@ -1,0 +1,13 @@
+canvas{
+    animation-name:example;
+    animation-duration:4s ;
+    animation-iteration-count: infinite;
+}
+/*Para definir la animación*/
+@keyframes example{
+    from{box-shadow: 1px 1px 38px rgb(22, 230, 74)}
+    to{box-shadow: 1px 1px 38px rgb(22, 230, 74)}
+}
+body{
+    background: linear-gradient(90deg, rgb(215, 241, 63) 0%, rgb(29, 219, 253) 50%, rgb(252, 69, 237) 100%);
+}
